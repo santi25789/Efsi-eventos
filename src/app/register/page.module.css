@@ -1,5 +1,5 @@
 .registerConteiner {
-    background-color: #98adbb;
+    background-color: #E8E4F2;
     width: 300px;
     margin: 100px auto;
     padding: 20px;
@@ -15,9 +15,9 @@
   }
   
   .registerConteiner h1 {
-    color: #ffffff;
+    color: #52337b;
     font-size: 1.5em;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   
   .registerConteiner input {
@@ -29,11 +29,11 @@
     border-radius: 5px;
     background-color: #f6f4fc;
     font-size: 1em;
-    color: #000000;
+    color: #52337b;
   }
   
   .registerConteiner button {
-    background-color: #65c26d;
+    background-color: #8b65c2;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -46,11 +46,12 @@
   }
   
   .registerConteiner button:hover {
-    background-color: #3c8056;
+    background-color: #6b4fa7;
   }
   
   .registerConteiner input:focus {
     outline: none;
-    border-color: #ffffff;
+    border-color: #8b65c2;
+    box-shadow: 0 0 5px rgba(139, 101, 194, 0.5);
   }
   
