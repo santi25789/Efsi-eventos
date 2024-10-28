@@ -1,21 +1,20 @@
 .contact-container {
-    padding: 20px;
-    max-width: 600px;
-    text-align: left; /* Alinea el texto a la izquierda */
-  }
-  
-  .contact-container h1 {
-    margin:0;
-    font-size: 48px; /* Tamaño grande para el título */
-    color: #602B5F; /* Color del título */
-    font-family: 'Amatic SC', cursive; /* Tipografía estilizada */
-    font-weight: 400; /* Peso de letra más fino */
-    margin-bottom: 20px; /* Espacio debajo del título */
-  }
-  
-  .contact-container p {
-    font-size: 20px; /* Tamaño del texto */
-    color: #0a1128; /* Color del texto */
-    margin: 10px 0; /* Espacio entre los párrafos */
-  }
-  
+  padding: 20px;
+  max-width: 600px;
+  text-align: left; 
+}
+
+.contact-container h1 {
+  margin:0;
+  font-size: 48px; 
+  color: #000000; 
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: 400; 
+  margin-bottom: 20px; 
+}
+
+.contact-container p {
+  font-size: 20px; 
+  color: #0a1128; 
+  margin: 10px 0;
+}
