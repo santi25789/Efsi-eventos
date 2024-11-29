@@ -2,66 +2,72 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  background-color: #F4F4F9;
+  padding: 50px;
+  background: linear-gradient(135deg, #F4F4F9 0%, #E9E8F1 100%);
   min-height: 100vh;
 }
 
 .eventDetailCard {
-  background-color: #D9D8EA;
-  border: 2px solid #9D82A5;
-  border-radius: 15px;
-  padding: 30px;
-  max-width: 600px;
-  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 700px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: fadeIn 0.5s ease-in-out;
+  animation: fadeIn 0.6s ease-in-out;
 }
 
 .eventDetailCard:hover {
-  transform: scale(1.02);
-  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
 .eventTitle {
-  color: #602B5F;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
+  color: #4E3A68;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 .eventDescription {
-  font-size: 1.2rem;
-  color: #4A4A4A;
+  font-size: 1.25rem;
+  color: #333333;
   margin-bottom: 30px;
+  line-height: 1.8;
   text-align: justify;
+  font-family: 'Roboto', sans-serif;
 }
 
 .eventInfo {
   font-size: 1.1rem;
-  color: #602B5F;
+  color: #4E3A68;
+  font-family: 'Roboto', sans-serif;
 }
 
 .eventInfo p {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .eventInfo strong {
   color: #9D82A5;
+  font-weight: 600;
 }
 
 .loading, .error {
-  font-size: 1.5rem;
-  color: #602B5F;
+  font-size: 1.6rem;
+  color: #9D82A5;
   text-align: center;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;

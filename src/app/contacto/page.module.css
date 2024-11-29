@@ -1,20 +1,27 @@
 .contact-container {
-  padding: 20px;
+  padding: 30px;
   max-width: 600px;
-  text-align: left; 
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .contact-container h1 {
-  margin:0;
-  font-size: 48px; 
-  color: #000000; 
-  font-family: 'Courier New', Courier, monospace; 
-  font-weight: 400; 
-  margin-bottom: 20px; 
+  margin: 0;
+  font-size: 36px;
+  color: #333333;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 10px;
 }
 
 .contact-container p {
-  font-size: 20px; 
-  color: #0a1128; 
-  margin: 10px 0;
+  font-size: 16px;
+  color: #555555;
+  margin: 15px 0;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
 }
